@@ -38,14 +38,6 @@ body{
 
 /* Nav CSS Part End*/
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
 /* Loader Styles */
 .loader {
     border: 10px solid #f3f3f3;
@@ -55,7 +47,7 @@ footer {
     height: 50px;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
-    /* display: none; */
+    display: none;
   }
   
   /* Safari */

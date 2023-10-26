@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #logo{
     margin-left: 20px;
@@ -38,14 +38,6 @@ body{
 
 /* Nav CSS Part End*/
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
 /* Loader Styles */
 .loader {
     border: 10px solid #f3f3f3;
@@ -55,7 +47,7 @@ footer {
     height: 50px;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
-    /* display: none; */
+    display: none;
   }
   
   /* Safari */
@@ -74,6 +66,7 @@ footer {
     display: flex;
     margin: 0 auto;
     padding: 20px;
+    /* background-color: #3498db; */
 }
 
 .left,.right{
@@ -85,7 +78,9 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    width:70%;
+    resize: none; /* Prevent resizing of the textarea */
+    width: 90%;
+    height: 350px;
 }
 
 .non-editable-textarea {
@@ -96,14 +91,13 @@ footer {
     font-size: 16px;
     resize: none; /* Prevent resizing of the textarea */
     background-color: rgb(230,230,221);
-    width: 100%;
+    width: 95%;
     height: 350px;
 }
 
 .status{
     display: flex;
-    margin-top: 20px;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
 }
