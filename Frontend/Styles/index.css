@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #logo{
     margin-left: 20px;
@@ -100,7 +100,7 @@ body{
     align-items: center;
 }
 input[type="submit"] {
-    width: 30%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -127,4 +127,8 @@ input[type="submit"]:hover {
     .input, .non-editable-textarea {
         width: 100%; /* Take full width on smaller screens */
     }
+}
+
+label{
+    font-size: 20px;
 }
